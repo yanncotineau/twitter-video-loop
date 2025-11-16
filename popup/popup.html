@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>X Video Loop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="popup">
+
+      <header class="popup-header">
+        <div class="app-icon">↻</div>
+        <div class="app-text">
+          <h1>X/Twitter Video Loop</h1>
+          <p>Enhance X/Twitter’s video player.</p>
+        </div>
+      </header>
+
+      <section class="setting">
+        <div class="setting-text">
+          <div class="setting-title">Loop all videos automatically</div>
+          <div class="setting-subtitle">
+            Apply looping to every video unless manually changed.
+          </div>
+        </div>
+
+        <label class="toggle">
+          <input id="alwaysLoop" type="checkbox" />
+          <span class="slider"></span>
+        </label>
+      </section>
+
+      <section class="setting">
+        <div class="setting-text">
+          <div class="setting-title">Show loop button on players</div>
+          <div class="setting-subtitle">
+            Display the loop toggle inside each video’s controls.
+          </div>
+        </div>
+
+        <label class="toggle">
+          <input id="showButton" type="checkbox" checked />
+          <span class="slider"></span>
+        </label>
+      </section>
+
+      <footer class="popup-footer">
+        <a
+          href="https://github.com/yanncotineau/twitter-video-loop"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="github-button"
+        >
+          <img
+            src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg"
+            alt="GitHub"
+            class="github-icon"
+          />
+          <span class="github-label">View on GitHub</span>
+        </a>
+      </footer>
+
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
