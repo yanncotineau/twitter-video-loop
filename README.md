@@ -1,5 +1,7 @@
 # Twitter Video Loop
 
+[➤ Install from the Chrome Web Store](https://chromewebstore.google.com/detail/twitter-video-loop/cailkkalkbclakmmpmbhckjicfapgnih)
+
 `Twitter Video Loop` is a small Chromium extension that adds an option to loop videos in the X/Twitter video player.
 
 ![Popup](./docs/introduction.png)
